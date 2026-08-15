@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", sans-serif;
+  --font-mono: "Space Mono", monospace;
+  --color-bg: #F8F7F4;
+  --color-ink: #1A1A1A;
+  --color-accent: #E85D04;
+}
+
+@layer base {
+  ::selection {
+    background-color: var(--color-accent);
+    color: white;
+  }
+}
