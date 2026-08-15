@@ -1,0 +1,6 @@
+{
+  "name": "Daily Focus Counter",
+  "description": "A minimalist counter and quick scratchpad application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
